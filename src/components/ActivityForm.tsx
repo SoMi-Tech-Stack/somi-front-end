@@ -26,7 +26,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
     <form onSubmit={handleSubmit} className="space-y-8 w-full max-w-md backdrop-blur-sm bg-white/80 p-8 rounded-2xl shadow-xl border border-somi-purple-100">
       <div className="space-y-4">
         <div>
-          <label className="flex items-center gap-3 text-somi-gray-700 mb-3 font-medium">
+          <label className="flex items-center gap-3 text-[#000040] mb-3 font-medium">
             <div className="p-2 bg-somi-purple-100 rounded-lg">
               <Music2 className="w-5 h-5 text-[#000040]" />
             </div>
@@ -44,7 +44,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
         </div>
 
         <div>
-          <label className="flex items-center gap-3 text-somi-gray-700 mb-3 font-medium">
+          <label className="flex items-center gap-3 text-[#000040] mb-3 font-medium">
             <div className="p-2 bg-somi-purple-100 rounded-lg">
               <Sparkles className="w-5 h-5 text-[#000040]" />
             </div>
@@ -61,7 +61,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
         </div>
 
         <div>
-          <label className="flex items-center gap-3 text-somi-gray-700 mb-3 font-medium">
+          <label className="flex items-center gap-3 text-[#000040] mb-3 font-medium">
             <div className="p-2 bg-somi-purple-100 rounded-lg">
               <Zap className="w-5 h-5 text-[#000040]" />
             </div>
