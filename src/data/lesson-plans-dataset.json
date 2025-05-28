@@ -1,0 +1,77 @@
+[
+  {
+    "year_group": "Year 2",
+    "topic": "Pitch",
+    "song_title": "See Saw",
+    "song_solfa": [
+      "so",
+      "mi"
+    ],
+    "song_rhythm": [
+      "ta",
+      "ti-ti"
+    ],
+    "teaching_framework": "Kodály",
+    "learning_objectives": [
+      "Identify and sing 'so' and 'mi' on pitch",
+      "Perform simple rhythm patterns using 'ta' and 'ti-ti'"
+    ],
+    "warmup_activities": [
+      "Vocal sirens and pitch-matching with body movement",
+      "Echo clapping and solfa echo singing"
+    ],
+    "main_activities": [
+      "Teach 'See Saw' through call-and-response",
+      "Play pitch game using solfa hand signs",
+      "Practice writing 'so-mi' patterns using colour-coded magnets"
+    ],
+    "differentiation": {
+      "support": "Use pitch ladders or hand-sign visuals for support",
+      "challenge": "Have pupils improvise a 4-beat phrase using so-mi"
+    },
+    "assessment": {
+      "formative": "Observe pitch matching and rhythmic accuracy during echo activities",
+      "summative": "Students notate or perform a short so-mi melody"
+    },
+    "notes": "Ensure children internalize pitch by combining movement and solfa"
+  },
+  {
+    "year_group": "Year 4",
+    "topic": "Rhythm",
+    "song_title": "Canoe Song",
+    "song_solfa": [
+      "do",
+      "re",
+      "mi",
+      "so"
+    ],
+    "song_rhythm": [
+      "ta",
+      "ti-ti",
+      "ta-a"
+    ],
+    "teaching_framework": "Kodály",
+    "learning_objectives": [
+      "Recognise and perform 'ta-a' (minim)",
+      "Maintain a steady beat during ensemble activity"
+    ],
+    "warmup_activities": [
+      "Clap and step to beat",
+      "Rhythmic canon game using 'ta-ti-ti-ta-a'"
+    ],
+    "main_activities": [
+      "Learn 'Canoe Song' with body percussion",
+      "Layer rhythm ostinatos and perform in groups",
+      "Record and playback for self-assessment"
+    ],
+    "differentiation": {
+      "support": "Use visual rhythm cards with colours",
+      "challenge": "Add syncopated ostinato using 'ti-tika'"
+    },
+    "assessment": {
+      "formative": "Peer feedback during group performance",
+      "summative": "Students compose and perform a 4-bar rhythm"
+    },
+    "notes": "Emphasise teamwork and pulse awareness"
+  }
+]
