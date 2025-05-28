@@ -15,6 +15,8 @@ function App() {
   const [analyticsId, setAnalyticsId] = React.useState<string | null>(null);
   const [currentFormData, setCurrentFormData] = React.useState<FormData | null>(null);
   const outputRef = useRef<HTMLDivElement>(null);
+
+  console.log('API URL:', import.meta.env.VITE_API_URL);
   
   const generateActivity = async (formData: FormData) => {
     setIsLoading(true);
@@ -57,11 +59,8 @@ function App() {
     <div className="min-h-screen bg-[#F0F2FF]">
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="text-center mb-16">
-          <SomiLogo className="h-16 mx-auto transform hover:scale-105 transition-transform duration-300" />
           <div className="flex items-center mt-4 sm:mt-0 flex-col sm:flex-row justify-center gap-6 mb-8">
             <div className="relative">
-              <div className="absolute inset-0 bg-somi-purple-200 rounded-full blur-xl opacity-20 animate-pulse"></div>
-              <Music className="w-16 h-16 text-somi-purple-600 relative z-10" />
             </div>
             <h1 className="text-5xl font-semibold text-somi-gray-800">
               Listening Activity Generator
