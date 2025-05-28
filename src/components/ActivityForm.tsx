@@ -35,7 +35,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
           <select
             value={formData.yearGroup}
             onChange={(e) => setFormData({ ...formData, yearGroup: e.target.value as YearGroup })}
-            className="w-full p-4 border border-[#F3F5FF] rounded-xl bg-white shadow-sm focus:ring-2 focus:ring-somi-purple-400 focus:border-transparent transition-all duration-200 hover:border-somi-purple-300 focus:outline-none focus-visible:outline-none"
+            className="w-full p-4 border border-[#F3F5FF] rounded-xl bg-white text-[#000040] shadow-sm focus:ring-2 focus:ring-somi-purple-400 focus:border-transparent transition-all duration-200 hover:border-somi-purple-300 focus:outline-none focus-visible:outline-none"
           >
             {yearGroups.map((year) => (
               <option key={year} value={year}>{year}</option>
@@ -55,7 +55,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
             value={formData.theme}
             onChange={(e) => setFormData({ ...formData, theme: e.target.value })}
             placeholder="e.g., Space, Animals, Weather"
-            className="w-full p-4 border border-[#F3F5FF] rounded-xl bg-white shadow-sm focus:ring-2 focus:ring-somi-purple-400 focus:border-transparent transition-all duration-200 hover:border-somi-purple-300 focus:outline-none focus-visible:outline-none"
+            className="w-full p-4 border border-[#F3F5FF] rounded-xl bg-white shadow-sm focus:ring-2 focus:ring-somi-purple-400 focus:border-transparent transition-all duration-200 hover:border-somi-purple-300 focus:outline-none focus-visible:outline-none text-[#000040]"
             required
           />
         </div>
@@ -70,7 +70,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
           <select
             value={formData.energyLevel}
             onChange={(e) => setFormData({ ...formData, energyLevel: e.target.value as EnergyLevel })}
-            className="w-full p-4 border border-[#F3F5FF] rounded-xl bg-white shadow-sm focus:ring-2 focus:ring-somi-purple-400 focus:border-transparent transition-all duration-200 hover:border-somi-purple-300 focus:outline-none focus-visible:outline-none"
+            className="text-[#000040] w-full p-4 border border-[#F3F5FF] rounded-xl bg-white shadow-sm focus:ring-2 focus:ring-somi-purple-400 focus:border-transparent transition-all duration-200 hover:border-somi-purple-300 focus:outline-none focus-visible:outline-none"
           >
             {energyLevels.map((level) => (
               <option key={level} value={level}>{level}</option>
