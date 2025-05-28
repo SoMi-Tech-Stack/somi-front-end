@@ -81,7 +81,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
 
       <button
         type="submit"
-        disabled={isLoading}
+        disabled={isLoading || !formData.theme.trim()}
         className="relative w-full bg-gradient-to-r from-[#4f00ff] to-[#e600cc] text-white py-5 px-8 rounded-full font-semibold hover:from-[#3c00d0] hover:to-[#cc00b8] focus:outline-none focus:ring-2 focus:ring-[#c54bff] focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 shadow-lg hover:shadow-xl group overflow-hidden"
       >
         <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000"></div>
