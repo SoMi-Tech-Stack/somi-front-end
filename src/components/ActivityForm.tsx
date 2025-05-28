@@ -28,7 +28,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
         <div>
           <label className="flex items-center gap-3 text-somi-gray-700 mb-3 font-medium">
             <div className="p-2 bg-somi-purple-100 rounded-lg">
-              <Music2 className="w-5 h-5 text-somi-purple-600" />
+              <Music2 className="w-5 h-5 text-[#000040]" />
             </div>
             Year Group
           </label>
@@ -46,7 +46,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
         <div>
           <label className="flex items-center gap-3 text-somi-gray-700 mb-3 font-medium">
             <div className="p-2 bg-somi-purple-100 rounded-lg">
-              <Sparkles className="w-5 h-5 text-somi-purple-600" />
+              <Sparkles className="w-5 h-5 text-[#000040]" />
             </div>
             Theme / Project
           </label>
@@ -63,7 +63,7 @@ export function ActivityForm({ onSubmit, isLoading }: Props) {
         <div>
           <label className="flex items-center gap-3 text-somi-gray-700 mb-3 font-medium">
             <div className="p-2 bg-somi-purple-100 rounded-lg">
-              <Zap className="w-5 h-5 text-somi-purple-600" />
+              <Zap className="w-5 h-5 text-[#000040]" />
             </div>
             Energy Level
           </label>
