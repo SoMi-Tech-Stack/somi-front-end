@@ -62,11 +62,11 @@ function App() {
           <div className="flex items-center mt-4 sm:mt-0 flex-col sm:flex-row justify-center gap-6 mb-8">
             <div className="relative">
             </div>
-            <h1 className="text-5xl font-semibold text-somi-gray-800">
+            <h1 className="text-5xl font-semibold text-[#000040]">
               Listening Activity Generator
             </h1>
           </div>
-          <p className="text-lg text-somi-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-[#000040] max-w-2xl mx-auto">
             Create engaging music listening activities for your primary classroom in seconds
           </p>
         </div>

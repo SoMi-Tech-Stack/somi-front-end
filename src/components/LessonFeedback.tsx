@@ -50,11 +50,11 @@ export const LessonFeedback = ({ activity }: Props) => {
     return (
       <div className="mt-6 text-center bg-[#F0F2FF] p-4 rounded-lg border border-[#F3F5FF]">
         <div className="space-y-4">
-          <p className="text-somi-purple-700 font-medium">Thanks for your feedback!</p>
+          <p className="text-[#000040] font-medium">Thanks for your feedback!</p>
           
           {analysis && (
             <div className="text-left">
-              <h4 className="font-semibold text-somi-purple-800 mb-2">AI Analysis Insights:</h4>
+              <h4 className="font-semibold text-[#000040] mb-2">AI Analysis Insights:</h4>
               
               {analysis.themeAnalysis && (
                 <div className="mb-3">
@@ -85,7 +85,7 @@ export const LessonFeedback = ({ activity }: Props) => {
 
   return (
     <div className="mt-6 border-t-2 border-[#F3F5FF] pt-6">
-      <h3 className="text-lg font-semibold text-somi-gray-800 mb-4">Was this lesson useful?</h3>
+      <h3 className="text-lg font-semibold text-[#000040] mb-4">Was this lesson useful?</h3>
       <div className="flex gap-2 mb-4">
         {[1, 2, 3, 4, 5].map((star) => (
           <button
@@ -93,8 +93,8 @@ export const LessonFeedback = ({ activity }: Props) => {
             onClick={() => setRating(star)}
             className={`p-2 rounded-lg transition-all duration-200 ${
               rating >= star 
-                ? 'text-yellow-400 scale-110' 
-                : 'text-somi-gray-300 hover:text-yellow-300 hover:scale-105'
+                ? 'text-[#F7C614] scale-110' 
+                : 'text-somi-gray-300 hover:text-[#F7C614] hover:scale-105'
             }`}
             title={`${star} star${star !== 1 ? 's' : ''}`}
           >
@@ -102,11 +102,11 @@ export const LessonFeedback = ({ activity }: Props) => {
           </button>
         ))}
       </div>
-        <h4 className="text-somi-gray-700 font-medium mb-2">Optional Comments</h4>
+        <h4 className="text-[#000040] font-medium mb-2">Optional Comments</h4>
       <textarea
         value={comments}
         onChange={(e) => setComments(e.target.value)}
-        className="w-full p-4 border border-[#F3F5FF] rounded-xl bg-white shadow-sm focus:ring-2 focus:ring-somi-purple-400 focus:border-transparent transition-all duration-200 hover:border-somi-purple-300 resize-none focus:outline-none focus-visible:outline-none"
+        className="w-full p-4 border border-[#F2F4FF] rounded-xl bg-white shadow-sm focus:ring-2 focus:ring-somi-purple-400 focus:border-transparent transition-all duration-200 hover:border-somi-purple-300 resize-none focus:outline-none focus-visible:outline-none"
         rows={3}
         placeholder="Optional comments..."
       />
